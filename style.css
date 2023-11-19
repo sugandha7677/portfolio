@@ -384,7 +384,7 @@ section.skills .s1 .progress-bar .progress{
 }
 
 section.skills .s1 .item:nth-child(2) .progress-bar .progress{
-    width:40%;
+    width:60%;
 }
 
 section.skills .s2 .progress-bar .progress{
@@ -394,16 +394,13 @@ section.skills .s2 .progress-bar .progress{
 }
 
 section.skills .s2 .item:nth-child(2) .progress-bar .progress{
-    width:70%;
+    width:80%;
 }
 
 section.skills .s2 .item:nth-child(3) .progress-bar .progress{
     width: 85%;
 }
 
-section.skills .s2 .item:nth-child(4) .progress-bar .progress{
-    width: 60%;
-}
 
 section.skills .s3 .progress-bar .progress{
     height: 100%;
@@ -411,18 +408,33 @@ section.skills .s3 .progress-bar .progress{
     background: var(--color-primary);
 }
 
+section.skills .s4 .progress-bar .progress{
+    height: 100%;
+    width:70%;
+    background: var(--color-primary);
+}
+section.skills .s4 .item:nth-child(2) .progress-bar .progress{
+    width:0%;
+}
+section.skills .s5 .progress-bar .progress{
+    height: 100%;
+    width:85%;
+    background: var(--color-primary);
+}
+
+
 /* RECENT WORK (Portfolio)*/
 
 section.recent-work h1{
     text-align: left;
-    margin: 3rem 0 1rem 0;
+    margin: 3rem 0 2rem 0;
     width: 70%;
 }
 
 section.recent-work .projects {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
+    grid-template-columns: 2fr 2fr;
+    gap: 5rem;
 }
 
 section.recent-work .projects .project {
@@ -433,7 +445,7 @@ section.recent-work .projects .project {
 
 section.recent-work .projects .project .action {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 section.recent-work .projects .project .action a{
@@ -445,8 +457,8 @@ section.recent-work .projects .project .action a:hover {
 }
 
 /*Contact*/
-
-/*section.contact {
+/*
+section.contact {
     padding: 0;
     max-width: 100vw;
     color: var(--color-white);
@@ -866,4 +878,6 @@ footer .copyright {
     }
 
 }
+
+
 
